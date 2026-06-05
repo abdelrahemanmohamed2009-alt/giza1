@@ -6,7 +6,7 @@
 
         <meta name="description" content="">
         <meta name="author" content="TemplateMo">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>sanweya operations room</title>
 
         <!-- CSS FILES -->
@@ -29,11 +29,6 @@
         <style>
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; /* بيضمن إن الحجم يفضل مظبوط حتى مع وجود Padding */
-}
 
 body {
     font-family: sans-serif;
@@ -48,28 +43,11 @@ img, video {
     height: auto;
 }
 
-/* 3. تصميم الحاوية الرئيسية للموقع */
-.container {
-    width: 90%;          /* بياخد 90% من عرض الشاشة عشان يسيب مسافة شكلها حلو ع الجوانب */
-    max-width: 1200px;   /* مش هيزيد عن 1200 بكسل حتى لو الشاشة عملاقة */
-    margin: 0 auto;      /* بيخلي المحتوى في النص بالظبط */
-}
+
 
 /* ------------------------------------------- */
 /* 4. الـ Media Queries (تعديل الشكل حسب الجهاز) */
 
-/* للشاشات المتوسطة (مثل التابلت والأيباد) */
-@media (max-width: 768px) {
-    .container {
-        width: 95%; /* بنكبر المساحة شوية في الشاشات الأصغر */
-    }
-    
-    /* لو عندك عناصر جنب بعض، خليهم تحت بعض في الموبايل */
-    .row {
-        display: flex;
-        flex-direction: column; 
-    }
-}
 
 /* للشاشات الصغيرة جدًا (الموبايلات) */
 @media (max-width: 480px) {
